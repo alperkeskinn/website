@@ -1,0 +1,6 @@
+{
+  "name": "noname-hukuk-burosu",
+  "description": "NoName Hukuk Burosu icin hazirlanan, modern, koyu lacivert ve altin tonlarinda kurumsal web sitesi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

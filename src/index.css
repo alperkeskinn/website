@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-mono: "Space Grotesk", ui-monospace, monospace;
+  
+  --color-navy: #1a2b4c;
+  --color-gold: #c5a880;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fcfcfc;
+  color: #222222;
+}
+
+/* Custom scrollbar matching dark navy/gold legal prestige */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a2b4c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c5a880;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b09166;
+}
